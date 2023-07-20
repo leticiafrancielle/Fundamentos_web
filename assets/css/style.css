@@ -1,0 +1,58 @@
+.center {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#menu li {
+    display: inline;
+    padding: 265px;
+}
+
+#menu li a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+#menu li a:hover {
+    color: rgb(0, 255, 234);
+}
+
+.br-50 {
+    border-radius: 50%;
+}
+
+.wh {
+    width: 500px;
+    height: 500px;
+}
+
+.tm-social {
+    width: 50px;
+    height: 50px;
+}
+
+.p-30 {
+    padding: 20px;
+}
+
+.mb-50 {
+    margin-bottom: 20px;
+}
+
+.ml-50 {
+    margin-left: 90px;
+}
+
+body {
+    background-color: rgb(141, 92, 255);
+}
